@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* In v4, instead of using @apply in CSS for custom classes, 
+   it's often better to define them in the @theme block or 
+   just use the utilities directly in your JSX.
+*/
+
+@layer components {
+  .ball {
+    /* We use standard CSS variables that Tailwind v4 provides */
+    position: absolute;
+    border-radius: 9999px;
+    opacity: 0.2;
+    filter: blur(24px); /* This is what blur-xl does */
+    pointer-events: none;
+  }
+
+  .animate-float {
+    animation: float 8s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-40px) translateX(20px); }
+}
