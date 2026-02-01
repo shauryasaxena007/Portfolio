@@ -1,16 +1,51 @@
-# React + Vite
+# 🚀 Personal Portfolio — React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and high-performance personal portfolio website built using **React**, **Vite**, and **Tailwind CSS**.  
+This project showcases my skills, projects, and experience with a clean UI, smooth animations, and optimized performance.
 
-Currently, two official plugins are available:
+This portfolio is designed as a central hub to showcase my technical skills, real-world projects, and professional journey as a frontend-focused developer. The goal of this project is not just visual presentation, but also demonstrating clean architecture, modern tooling, and scalable UI practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built with React + Vite + Tailwind CSS, the portfolio emphasizes:
+Performance-first development
+Component-driven architecture
+Responsive and accessible UI
+Maintainable code structure
+Modern frontend workflows
 
-## React Compiler
+📂 **Repository:** https://github.com/shauryasaxena007/Portfolio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Lightning-fast build with Vite
+- 🎨 Fully responsive design using Tailwind CSS
+- 🌙 Dark / Light mode support
+- 🧩 Reusable React components
+- 📱 Mobile-first layout
+- 💼 Projects showcase section
+- 👨‍💻 About & Skills section
+- 📬 Contact section
+- 🚀 Deployed on GitHub Pages
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js  
+- **Build Tool:** Vite  
+- **Styling:** Tailwind CSS  
+- **Deployment:** GitHub Pages  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 📸 Preview
+
+<img width="1919" height="1090" alt="image" src="https://github.com/user-attachments/assets/652d257a-8e31-4af1-971a-ebc64627f5a2" />
+<img width="1919" height="1094" alt="image" src="https://github.com/user-attachments/assets/ab789659-7cca-44ab-ac04-cde374c2311b" />
+
+
+
+
+
