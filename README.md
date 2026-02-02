@@ -10,7 +10,7 @@ Performance-first development
 Component-driven architecture
 Responsive and accessible UI
 Maintainable code structure
-Modern frontend workflows
+Modern frontend workflow
 
 📂 **Repository:** https://github.com/shauryasaxena007/Portfolio
 
