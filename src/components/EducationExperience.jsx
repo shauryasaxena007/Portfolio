@@ -12,7 +12,7 @@ const EducationExperience = () => {
 
         {/* Academics */}
         <div className="relative group">
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-700 rounded-3xl blur opacity-20 group-hover:opacity-40 transition" />
+          <div className="absolute inset-0 bg-linear-to-br from-blue-600 to-purple-700 rounded-3xl blur opacity-20 group-hover:opacity-40 transition" />
 
           <div className="relative bg-white/80 dark:bg-slate-600/40 backdrop-blur-2xl p-10 rounded-3xl border border-slate-200 dark:border-slate-700">
 
@@ -81,7 +81,7 @@ const EducationExperience = () => {
 
         {/* Experience */}
         <div className="relative group">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-700 to-blue-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition" />
+          <div className="absolute inset-0 bg-linear-to-br from-purple-700 to-blue-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition" />
 
           <div className="relative bg-white/80 dark:bg-slate-600/40 backdrop-blur-2xl p-10 rounded-3xl border border-slate-200 dark:border-slate-700">
 
