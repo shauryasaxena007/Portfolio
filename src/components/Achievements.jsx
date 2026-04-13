@@ -20,7 +20,7 @@ const Achievements = () => {
           <motion.div 
             key={index}
             whileHover={{ scale: 1.02 }}
-            className="bg-gradient-to-b from-blue-900 to-purple-00 p-4 rounded-xl border border-slate-200 dark:border-slate-700"
+            className="bg-linear-to-b from-blue-900 to-purple-00 p-4 rounded-xl border border-slate-200 dark:border-slate-700"
           >
             <div className="flex justify-between items-center mb-4">
               <h3 className="font-bold text-lg text-slate-300">{cert.title}</h3>
