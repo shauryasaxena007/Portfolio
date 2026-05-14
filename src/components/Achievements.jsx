@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 const achievements = [
   { title: "Python Certification", year: "2026", image: "src/images/python.png" },
+  { title: "Employability Enhancement Certification", year: "2026", image: "src/images/Em En.png" },
   { title: "React Certification", year: "2026", image: "src/images/react certi.png" },
   { title: "AWS Solutions Architect", year: "2025", image: "src/images/aws.png" },
   { title: "JavaScript Certification", year: "2026", image: "src/images/js certificate.png" },
