@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const achievements = [
-  { title: "Python From Scratch Certification", year: "2026", image: "src/images/python.png" },
-  { title: "Employability Enhancement Certification", year: "2026", image: "src/images/Em En.png" },
-  { title: "React Certification", year: "2026", image: "src/images/react certi.png" },
-  { title: "AWS Solutions Architect", year: "2025", image: "src/images/aws.png" },
-  { title: "JavaScript Certification", year: "2026", image: "src/images/js certificate.png" },
-  { title: "Be 10x chatgpt and other AI tools certification", year: "2025", image: "src/images/ai.png" },
-  { title: "Database power Bootcamp Certification", year: "2025", image: "src/images/dbp.png" },
+  { title: "Python From Scratch Certification", year: "2026", image: "/images/python.png" },
+  { title: "Employability Enhancement Certification", year: "2026", image: "/images/Em En.png" },
+  { title: "React Certification", year: "2026", image: "/images/react certi.png" },
+  { title: "AWS Solutions Architect", year: "2025", image: "/images/aws.png" },
+  { title: "JavaScript Certification", year: "2026", image: "/images/js certificate.png" },
+  { title: "Be 10x chatgpt and other AI tools certification", year: "2025", image: "/images/ai.png" },
+  { title: "Database power Bootcamp Certification", year: "2025", image: "/images/dbp.png" },
   
 ];
 
