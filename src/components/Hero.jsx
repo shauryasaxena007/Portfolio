@@ -103,8 +103,7 @@ const Hero = () => {
             </div>
             <div className="absolute -bottom-4 right-0 bg-white dark:bg-slate-700 p-4 rounded-3xl shadow-xl border border-slate-100 dark:border-slate-700">
                 <p className="text-sm font-bold text-blue-300">1+ Years</p>
-                <p className="text-xs text-slate-500">Experience</p>
-            </div>
+                <p className="text-xs text-slate-500">Experience</p> </div>
         </motion.div>
     </section>
 );

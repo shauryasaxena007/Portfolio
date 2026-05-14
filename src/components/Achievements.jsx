@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const achievements = [
@@ -13,6 +13,7 @@ const achievements = [
 ];
 
 const Achievements = () => {
+   const [selectedImage, setSelectedImage] = useState(null);
   return (
     <section id="achievements" className="py-20">
       <h2 className="text-4xl font-bold text-center mb-19">Certifications</h2>
@@ -30,11 +31,26 @@ const Achievements = () => {
             <img 
               src={cert.image} 
               alt={cert.title} 
+              onClick={() => setSelectedImage(cert.image)}
               className="w-full rounded-lg shadow-md hover:cursor-zoom-in transition-all"
             />
           </motion.div>
         ))}
       </div>
+
+      {/* Modal */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <img
+            src={selectedImage}
+            alt="Certificate"
+            className="max-w-5xl max-h-[90vh] rounded-2xl shadow-2xl"
+          />
+        </div>
+      )}
     </section>
   );
 };
