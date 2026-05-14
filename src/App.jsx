@@ -8,7 +8,7 @@ import CoreSkills from './components/core';
 import Achievements from './components/Achievements';
 import EducationExperience from "./components/EducationExperience";
 import Projects from './components/Projects';
-import Contact from './components/temp.jsx';
+import Contact from './components/Contact.jsx';
 import Footer from './components/Footer';
 
 function App() {
