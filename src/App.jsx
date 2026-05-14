@@ -41,12 +41,11 @@ function App() {
 
       {/* 🔹 Content */}
       <div className="relative z-10">
-        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <div className="pt-40">
           <main className="container mx-auto px-4 space-y-16">
             <Hero />
             <About />
-            <Navbar />
             <CoreSkills />
             <EducationExperience />
             <Projects />
