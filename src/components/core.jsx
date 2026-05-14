@@ -4,10 +4,10 @@ const skills = [
   "HTML",
   "CSS", "Web Accessibility" , "UI/UX Design",
   "JavaScript","Bootstrap",
-  "React","C++","AI",
+  "React","C++","Python","Numpy","Pandas","AI Tools","Flask",
   "Tailwind","MongoDB",  
     "REST APIs", "SQL", "R","Git",
-  "GitHub","Excel", "Flask"
+  "GitHub","Excel","Power BI"
 ];
 
 const CoreSkills = () => {
