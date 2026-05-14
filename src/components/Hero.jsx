@@ -99,7 +99,7 @@ const Hero = () => {
             className="mt-12 md:mt-0 relative"
         >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-tr from-blue-500 to-purple-600">
-                <img src="src/images/image.png" alt="Shaurya Saxena, a frontend developer and data scientist, smiling in a professional headshot with a blue and purple gradient background, conveying approachability and professional expertise" className="w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-900" />
+                <img src="/images/image.png" alt="Shaurya Saxena, a frontend developer and data scientist, smiling in a professional headshot with a blue and purple gradient background, conveying approachability and professional expertise" className="w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-900" />
             </div>
             <div className="absolute -bottom-4 right-0 bg-white dark:bg-slate-700 p-4 rounded-3xl shadow-xl border border-slate-100 dark:border-slate-700">
                 <p className="text-sm font-bold text-blue-300">1+ Years</p>

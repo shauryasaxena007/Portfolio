@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import darkBg from "./images/bgDARK.jpg";
-import lightBg from "./images/bgLIGTH.jpg";
-import Navbar from './components/Navbar';
+const darkBg = "/images/bgDARK.jpg";
+const lightBg = "/images/bgLIGTH.jpg";
 import Hero from './components/Hero';
 import About from './components/About';
+import Navbar from "./components/Navbar";
 import CoreSkills from './components/core';
 import Achievements from './components/Achievements';
 import EducationExperience from "./components/EducationExperience";
@@ -46,6 +46,7 @@ function App() {
           <main className="container mx-auto px-4 space-y-16">
             <Hero />
             <About />
+            <Navbar />
             <CoreSkills />
             <EducationExperience />
             <Projects />
