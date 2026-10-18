@@ -1,4 +1,11 @@
 export const projects = [
+     {
+        title: "Sapience",
+        description: "Sapience: AI search that saves to your OneNote",
+        tech: ["HTML5", "CSS", "JavaScript(ES6)","Flexbox", "MySQL", "API", "oneNote", "Bootstrap"],
+        link: "https://github.com/shauryasaxena007/Sapience---AI-Engine.git",
+         image: "/images/AI_sap.png"
+    },
    {
         title: "Burger X",
         description: "Responsive Food Website with online ordering",
