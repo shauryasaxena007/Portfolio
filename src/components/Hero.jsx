@@ -79,7 +79,7 @@ I am a <strong>Machine Learning enthusiast</strong> and AWS service provider wit
                 <a href="https://github.com/shauryasaxena007" className="p-3 bg-slate-200 dark:bg-slate-700 rounded-full hover:bg-slate-800 hover:bg-brandBlue hover:text-white transition"><FaGithub size={20} /></a>
                 <a href="https://www.linkedin.com/in/shaurya-saxena-651894373" className="p-3 bg-slate-200 dark:bg-slate-700 rounded-full hover:bg-blue-500 hover:bg-brandBlue hover:text-white transition"><FaLinkedin size={20} /></a>
 
-                <a href="https://twitter.com/@Shaurya_261106"  className="p-3 bg-slate-200 dark:bg-slate-700 rounded-full hover:bg-slate-800 hover:text-white transition"><FaTwitter size={20} /></a>
+                <a href="https://x.com/Shaurya_261106"  className="p-3 bg-slate-200 dark:bg-slate-700 rounded-full hover:bg-slate-800 hover:text-white transition"><FaTwitter size={20} /></a>
 
                 <a href="https://www.instagram.com/_shaudit__saxena_" className="p-3 bg-slate-200 dark:bg-slate-700 rounded-full hover:bg-pink-500 hover:text-white transition"><FaInstagram size={20} /></a>
 
