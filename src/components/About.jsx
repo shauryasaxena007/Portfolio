@@ -34,14 +34,14 @@ const About = () => {
 
           <ul className="text-lg grid grid-cols-1 ">
             {[
-              "Responsive Web Design",
-              "Data Pattern Analysis",
-          "    Optimize application performance and user experience",
-              "API Development",
-              "Collaborate with teams to deliver quality software",
-              "ML Model Optimization",
-              "Analyze data to extract meaningful patterns",
-              "Find data insight from raw Data",
+            "Responsive Web Design",
+"Optimize application performance and user experience",
+"REST API Integration",
+"Develop interactive web applications",
+"Machine Learning Model Development",
+"Data Analysis and Pattern Recognition",
+"Data Visualization and Insight Extraction",
+"Predictive Modeling and Model Optimization",
 
             ].map((item, i) => (
               <li

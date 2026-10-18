@@ -47,7 +47,7 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             className="md:w-3/5"
         >
-            <p className="text-brandBlue font-semibold mb-2">Hello, I'm</p>
+            <p className=" dark:text-slate-900 font-semibold mt-6 mb-2">Hello, I'm</p>
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent mb-4 pb-2">
                 Shaurya Saxena
             </h1>
@@ -55,13 +55,10 @@ const Hero = () => {
                 {text}<span className="animate-pulse border-r-2 border-brandBlue ml-1"></span>
             </h2>
             
-            <p className="mt-6 text-slate-600 dark:text-slate-500 leading-relaxed max-w-xl">
-                I'm a <strong>Frontend Developer</strong> and <strong>Data Scientist</strong> who loves turning ideas into interactive web experiences and data into meaningful stories.  I build responsive, visually appealing interfaces while ensuring smooth performance and usability.
+            <p className="mt-6 text-slate-600 dark:text-slate-400 leading-relaxed max-w-xl">
+                I'm a <strong>Frontend Developer</strong> and <strong>Data Scientist</strong> passionate about building responsive web applications and transforming data into meaningful insights. I create interactive, user-friendly interfaces while focusing on performance and usability. With Python, SQL, and data analysis tools, I explore patterns, visualize insights, and develop machine learning models to solve real-world problems. I also work with data preprocessing, exploratory data analysis (EDA), and statistical techniques to uncover trends and support data-driven decision-making. I enjoy combining creativity, logic, and technology to build impactful solutions.
 
-                Alongside front-end development. I explore the world of data—analyzing patterns, building models, and creating visual insights that support smart decision-making. I enjoy working at the intersection of design, development, and data, where creativity meets logic.
-
-                 Driven by curiosity and growth, I'm always learning new technologies and refining my skills to create solutions that make an impact.
-               I am a <strong>Machine Learning enthusiast </strong>and AWS service provider with a strong interest in building intelligent, data-driven solutions and deploying them on scalable cloud infrastructure. I enjoy working with data to design, train, and optimize machine learning models that solve real-world problems. 
+I am a <strong>Machine Learning enthusiast</strong> and AWS service provider with a strong interest in building intelligent, data-driven solutions and deploying them on scalable cloud infrastructure. I enjoy working with data to design, train, evaluate, and optimize machine learning models that solve real-world problems.
             </p>
 
             {/* Action Buttons */}
