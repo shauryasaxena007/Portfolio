@@ -1,21 +1,19 @@
 import React from "react";
+import GitHubActivity from "./GitHubActivity";
 import { GraduationCap, Briefcase } from "lucide-react";
 
 const EducationExperience = () => {
   return (
     <section className="py-24 px-6 relative">
       <h2 className="text-4xl font-bold text-center mb-16">
-        Education & Experience
+        Education & Activity
       </h2>
 
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-19">
-
-        {/* Academics */}
+   <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-8 lg:gap-10 items-start">     {/* Academics */}
         <div className="relative group">
           <div className="absolute inset-0 bg-linear-to-br from-blue-600 to-purple-700 rounded-3xl blur opacity-20 group-hover:opacity-40 transition" />
 
-          <div className="relative bg-white/80 dark:bg-slate-600/40 backdrop-blur-2xl p-10 rounded-3xl border border-slate-200 dark:border-slate-700">
-
+       <div className="relative bg-white/80 dark:bg-slate-600/40 backdrop-blur-2xl p-10 rounded-3xl border border-slate-200 dark:border-slate-700 h-full">
             <div className="flex items-center gap-3 mb-8">
               <GraduationCap className="text-blue-500" />
               <h3 className="text-2xl font-semibold">Academics</h3>
@@ -37,7 +35,7 @@ const EducationExperience = () => {
                 ▼ 2024 – 2027
                 </p>
             </div> 
-            <span className="font-medium text-blue-500">CGPA 8.5</span>
+            <span className="font-medium text-blue-500">8.62/10</span>
                 
               </div>
 
@@ -79,32 +77,38 @@ const EducationExperience = () => {
           </div>
         </div>
 
-        {/* Experience */}
-        <div className="relative group">
-          <div className="absolute inset-0 bg-linear-to-br from-purple-700 to-blue-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition" />
+       
+        {/* GitHub Activity */}
+<div className="relative group">
+  <div className="absolute inset-0 bg-linear-to-br from-purple-700 to-blue-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition" />
 
-          <div className="relative bg-white/80 dark:bg-slate-600/40 backdrop-blur-2xl p-10 rounded-3xl border border-slate-200 dark:border-slate-700">
+  <div className="relative bg-white/80 dark:bg-slate-600/40 backdrop-blur-2xl p-6 md:p-8 rounded-3xl border border-slate-200 dark:border-slate-700 h-full">
+    <div className="flex items-center gap-3 mb-6">
+      <Briefcase className="text-purple-500" />
+      <h3 className="text-2xl font-semibold">
+        GitHub Activity
+      </h3>
+    </div>
 
-            <div className="flex items-center gap-3 mb-4">
-              <Briefcase className="text-purple-500" />
-              <h3 className="text-2xl font-semibold">MY PATH Experience</h3>
-            </div>
+    <p className="text-sm text-slate-500 dark:text-slate-300 mb-6">
+      My coding consistency and contributions over the past year.
+    </p>
 
-            <h3 className="text-lg font-semibold mb-5">💻 Web Developer Intern</h3>
-            <p className="text-sm text-slate-400 mb-4">CodeSoft | Jan 2025 – Jan 2025 (1 Month)</p>
+    <div className=" overflow-x-auto">
+      <GitHubActivity />
+    </div>
 
-            <ul className="space-y-3 text-slate-600 dark:text-slate-300">
-              <li>▹ Developed responsive web using HTML, CSS, and JavaScript</li>
-              <li>▹ Built reusable UI components and improved code maintainability</li>
-              <li>▹ Ensured cross-browser compatibility and mobile responsiveness</li>
-              <li>▹ Debugged UI issues and optimized performance</li>
-               <li>▹ Collaborated with team members using GitHub version control</li>
-                 <li>▹ Tested applications across multiple devices and screen sizes</li>
-              
-            </ul>
+    <a
+      href="https://github.com/shauryasaxena007"
+      target="_blank"
+      rel="noreferrer"
+      className="inline-block mt-6 text-blue-500 hover:text-purple-500 transition"
+    >
+      View GitHub Profile →
+    </a>
 
-          </div>
-        </div>
+  </div>
+</div>
 
       </div>
     </section>
